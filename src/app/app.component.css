@@ -1,6 +1,6 @@
 .strat-btn{
     border-radius: 50%;
-    border: 7px solid #026fe48a;
+    /* border: 7px solid #026fe48a; */
     display: inline;
     padding: 20px;
     margin: 4px 2px;
@@ -8,17 +8,17 @@
     cursor: pointer;
     font-size: 24px;
     vertical-align: middle;
-    
+    color: #ff2800 !important;    
 }
 .top-40{
-    top: 40%;
+    top: 40px;
 }
 .text{
-    color: #fff;
+    color: #696969;
     font-size: 18px;
 }
 
-.strat-btn:hover{
+.strat-btn:active{
     background-color: #0f62bb;
 }
 .strat-btn:focus{
@@ -28,5 +28,16 @@
 
 .backgroung{
     height: 100vh;
-    background-image: linear-gradient(to bottom, #cc9a06 , #fd3145);
+    /* background-image: linear-gradient(to bottom, #cc9a06 , #fd3145); */
+    background-color: #ffe5b4;
+}
+
+.header{
+    top: 10%;
+    font-size: 40px;
+    font-style: italic;
+    font-family: serif;
+    text-shadow: cyan;
+    text-shadow: 2px 2px #808080;
+    font-weight: bold;
 }
