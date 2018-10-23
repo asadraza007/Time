@@ -1,9 +1,11 @@
-.strat-btn{
-    border-radius: 50%;
+.start-btn{
+    /* border-radius: 50%; */
     /* border: 7px solid #026fe48a; */
     display: inline;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 4px 2px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
     cursor: pointer;
     font-size: 24px;
@@ -18,10 +20,10 @@
     font-size: 18px;
 }
 
-.strat-btn:active{
+.stat-btn:active{
     background-color: #0f62bb;
 }
-.strat-btn:focus{
+.start-btn:focus{
     outline: none;
     box-shadow: none;
 }
@@ -30,6 +32,7 @@
     height: 100vh;
     /* background-image: linear-gradient(to bottom, #cc9a06 , #fd3145); */
     background-color: #ffe5b4;
+    position: fixed;
 }
 
 .header{
