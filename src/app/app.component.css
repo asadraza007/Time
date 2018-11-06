@@ -33,6 +33,7 @@
     /* background-image: linear-gradient(to bottom, #cc9a06 , #fd3145); */
     background-color: #ffe5b4;
     position: fixed;
+    width: 100%;
 }
 
 .header{
